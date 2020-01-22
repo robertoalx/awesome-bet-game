@@ -1,2 +1,10 @@
+import React from 'react'
+import ReactDom from'react-dom'
+import App from './component/app'
+
 const hereWillRenderTheApp = document.querySelector('#here-will-render-the-app')
-console.log(hereWillRenderTheApp)
+
+ReactDom.render(
+  <App />,
+  hereWillRenderTheApp
+)
