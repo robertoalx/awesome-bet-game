@@ -3,7 +3,7 @@ import { StyledCircleBoard } from './circle-board.style'
 
 const CircleBoard = () => {
   return (
-    <StyledCircleBoard />
+    <StyledCircleBoard side={350}/>
   )
 }
 
