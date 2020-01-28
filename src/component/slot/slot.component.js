@@ -1,8 +1,9 @@
 import React from 'react'
+import { StyleSlot } from './slot.style'
 
 const Slot = () => {
   return (
-    <div>Slotttt</div>
+    <StyleSlot>1</StyleSlot>
   )
 }
 
