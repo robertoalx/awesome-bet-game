@@ -6,7 +6,9 @@ export const StyleSlot = styled.div`
   // background-color: red;
   display: inline-block;
   margin-left: 165px;
-  
+  transform-origin: 50% 100%;
+  transform: rotate(90deg);
+
   &::before{
     content: '';
     position: absolute;
@@ -15,6 +17,7 @@ export const StyleSlot = styled.div`
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
   }
+
   &::after{
     content: '1';
     position: relative;
