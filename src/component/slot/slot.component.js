@@ -3,7 +3,7 @@ import { StyleSlot } from './slot.style'
 
 const Slot = () => {
   return (
-    <StyleSlot>1</StyleSlot>
+    <StyleSlot number= {11}/>
   )
 }
 

@@ -19,7 +19,7 @@ export const StyleSlot = styled.div`
   }
 
   &::after{
-    content: '1';
+    content: ${({ number }) => `'${number}'`};
     position: relative;
     text-align: center;
   }
