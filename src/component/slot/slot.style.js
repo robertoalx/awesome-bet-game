@@ -7,7 +7,7 @@ export const StyleSlot = styled.div`
   display: inline-block;
   margin-left: 165px;
   transform-origin: 50% 100%;
-  transform: rotate(90deg);
+  transform: rotate(${({ rotate }) => rotate}deg);
 
   &::before{
     content: '';

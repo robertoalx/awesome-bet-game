@@ -1,9 +1,9 @@
 import React from 'react'
 import { StyleSlot } from './slot.style'
 
-const Slot = () => {
+const Slot = ({ number, rotate }) => {
   return (
-    <StyleSlot number= {11}/>
+    <StyleSlot number={number} rotate={rotate}/>
   )
 }
 

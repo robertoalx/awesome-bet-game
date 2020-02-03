@@ -29,7 +29,8 @@ const CircleBoard = () => {
   console.log(numberList)
   return (
     <StyledCircleBoard side={350}>
-      <Slot />
+      {numberList.map(slot => <Slot {...slot}/>)}
+      
     </StyledCircleBoard>
   )
 }
