@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const StyleSlot = styled.div`
   height: 175px;
-  position: relative;
+  position: absolute;
   // background-color: red;
   display: inline-block;
-  margin-left: 165px;
+  margin-left: 167px;
   transform-origin: 50% 100%;
   transform: rotate(${({ rotate }) => rotate}deg);
   color: white;
