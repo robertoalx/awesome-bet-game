@@ -8,12 +8,13 @@ export const StyleSlot = styled.div`
   margin-left: 165px;
   transform-origin: 50% 100%;
   transform: rotate(${({ rotate }) => rotate}deg);
+  color: white;
 
   &::before{
     content: '';
     position: absolute;
     top: 0;
-    border-top: 175px solid red;
+    border-top: 175px solid ${({ color }) => color};
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
   }
