@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyledCircleBoard } from './circle-board.style'
 import Slot from '../slot'
+import SmartBall from '../smartball'
 
 const CircleBoard = () => {
   const length = 18
@@ -30,7 +31,7 @@ const CircleBoard = () => {
   return (
     <StyledCircleBoard side={350}>
       {numberList.map(slot => <Slot {...slot}/>)}
-      
+      <SmartBall />
     </StyledCircleBoard>
   )
 }

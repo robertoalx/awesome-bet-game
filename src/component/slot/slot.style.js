@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const StyleSlot = styled.div`
+export const StyledSlot = styled.div`
   height: 175px;
   width: 30px;
   position: absolute;
